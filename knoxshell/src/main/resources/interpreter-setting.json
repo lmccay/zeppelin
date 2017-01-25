@@ -1,0 +1,30 @@
+[
+  {
+    "group": "knoxshell",
+    "name": "ks",
+    "className": "org.apache.zeppelin.knoxshell.KnoxShell",
+    "properties": {
+      "knox.url": {
+        "envName": null,
+        "propertyName": "knox.url",
+        "defaultValue": "https://localhost:8443/gateway/sandbox",
+        "description": "The URL for Knox"
+      },
+      "knox.user": {
+        "envName": null,
+        "propertyName": "knox.user",
+        "defaultValue": "guest",
+        "description": "The knox user"
+      },
+      "knox.password": {
+        "envName": null,
+        "propertyName": "knox.password",
+        "defaultValue": "guest-password",
+        "description": "The knox password"
+      }
+    },
+    "editor": {
+      "editOnDblClick": false
+    }
+  }
+]
